@@ -30,7 +30,7 @@ npm install eggless
 
 ## Configuration
 
-*create *.yml configuration file under repo root dir.*
+*create router.yml*
 
 ```yml
 # router
