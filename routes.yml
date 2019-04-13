@@ -1,0 +1,3 @@
+# router
+# method path controller
+- get / home.index

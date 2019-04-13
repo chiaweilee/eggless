@@ -1,0 +1,25 @@
+{
+  "name": "eggless",
+  "description": "YAML configurable built-in egg",
+  "version": "0.1.0",
+  "bin": {
+    "eggless": "bin/eggless.js"
+  },
+  "files": [
+    "bin",
+    "run.js",
+    "built-in/app/controller",
+    "built-in/app/router.js",
+    "built-in/config",
+    "built-in/package.json",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "node bin/eggless.js start --port=8000"
+  },
+  "dependencies": {
+    "@js-x/require-yml": "^1.0.1",
+    "egg": "^2.6.1",
+    "egg-scripts": "^2.6.1"
+  }
+}
