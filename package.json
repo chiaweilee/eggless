@@ -3,7 +3,7 @@
   "description": "YAML configurable built-in egg",
   "version": "0.1.0",
   "bin": {
-    "eggless": "bin/eggless.js"
+    "eggless": "bin/eggless.js ./built-in"
   },
   "files": [
     "bin",
