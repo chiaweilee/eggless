@@ -1,0 +1,10 @@
+{
+  "extends": ["eslint-config-egg", "plugin:prettier/recommended"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error"
+  },
+  "env": {
+    "mocha": true
+  }
+}

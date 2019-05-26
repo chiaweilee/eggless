@@ -1,9 +1,9 @@
-require('@js-x/require-yml');
-const path = require('path');
-const routes = require(path.resolve('routes.yml'));
+'use strict';
+
+const { router } = require('../lib/config');
 
 module.exports = app => {
-  routes.forEach(route => {
+  router.forEach(route => {
     const [method, path, controller] = route.split(' ');
     app.router[method](
       path,

@@ -2,4 +2,4 @@
 
 const { config } = require('../lib/config');
 
-module.exports = config.default;
+module.exports = config.prod;

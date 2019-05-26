@@ -1,25 +1,37 @@
 {
-  "name": "eggless",
+  "name": "gge",
   "description": "YAML configurable built-in egg",
-  "version": "0.1.0",
+  "version": "0.0.0-beta.0",
   "bin": {
-    "eggless": "bin/eggless.js"
+    "eggless": "bin/gge.js"
   },
   "files": [
-    "bin",
-    "run.js",
+    "bin/gge.js",
+    "lib/run.js",
     "built-in/app/controller",
     "built-in/app/router.js",
     "built-in/config",
+    "built-in/lib",
     "built-in/package.json",
     "README.md"
   ],
   "scripts": {
-    "start": "node bin/eggless.js start --port=8000"
+    "start": "DEBUG=gge node bin/gge.js start --port=8000 /undefined/app/"
   },
   "dependencies": {
     "@js-x/require-yml": "^1.0.1",
-    "egg": "^2.6.1",
-    "egg-scripts": "^2.6.1"
+    "deepmerge": "^3.2.0",
+    "isobject": "^4.0.0"
+  },
+  "devDependencies": {
+    "@js-x/debug": "^1.0.0",
+    "egg": "^2.22.2",
+    "egg-index": "^0.0.0",
+    "egg-scripts": "^2.11.0",
+    "eslint": "^5.16.0",
+    "eslint-config-egg": "^7.4.1",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.17.1"
   }
 }

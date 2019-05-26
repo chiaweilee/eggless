@@ -1,0 +1,12 @@
+config:
+  default:
+    keys: 'gee-test'
+    static:
+      prefix: '/'
+      dir: 'dist'
+# router:
+#   - get / home.index
+plugin:
+  index:
+    enable: true
+    package: 'egg-index'
