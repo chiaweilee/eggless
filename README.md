@@ -25,7 +25,7 @@ npm install gge
 
 ## Configuration
 
-*create router.yml*
+*create app.yml*
 
 ```yml
 config:
