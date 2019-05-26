@@ -3,7 +3,7 @@
   "description": "YAML configurable built-in egg",
   "version": "0.0.0-beta.0",
   "bin": {
-    "eggless": "bin/gge.js"
+    "gge": "bin/gge.js"
   },
   "files": [
     "bin/gge.js",
