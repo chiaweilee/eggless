@@ -1,7 +1,7 @@
 {
   "name": "gge",
   "description": "YAML configurable built-in egg",
-  "version": "0.0.0",
+  "version": "0.0.0-beta.1",
   "bin": {
     "gge": "bin/gge.js"
   },
