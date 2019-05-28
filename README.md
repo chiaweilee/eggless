@@ -30,7 +30,7 @@ npm install gge
 ```yml
 config:
   default:
-    keys: 'gee-test'
+    keys: 'gge-test'
     static:
       prefix: '/'
       dir: 'dist'
