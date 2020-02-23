@@ -15,6 +15,9 @@ const ar = it => !it || Array.isArray(it);
 const defaultConfig = {
   config: {
     default: {
+      compress: {
+        threshold: 2048,
+      },
       static: {
         prefix: '/public/',
         dir: 'public',
