@@ -28,7 +28,12 @@ const defaultConfig = {
     local: {},
   },
   router: [],
-  plugin: {},
+  plugin: {
+    compress: {
+      enable: true,
+      package: 'egg-compress',
+    },
+  },
 };
 
 const env = ['default', 'prod', 'local', 'unittest'];
